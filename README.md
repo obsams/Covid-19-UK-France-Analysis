@@ -1,5 +1,6 @@
 # Covid-19-UK-France-Analysis
-How Covid-19 affected the economy of the United Kingdom(England) compared to other countries(France)statistics in terms of diverse economic parameters-inflation
+How Covid-19 affected the economy of the United Kingdom(England) compared to other countries(France)statistics in terms of diverse economic parameters-inflation using Binomial Regression
+
 Description
 The project is based on finding how Covid-19 affected the economy of England compared to other countries(France) and the factors which contributed to the economic impacts. The  research focused on comparing the statistics of the UK and France based on the economic parameters to determine the impact of Covid-19 on the economy of the United Kingdom. The report also considered various literature to find how the previous researchers analyzed Covid-19 data effects on the UK economy .The report used government data, and economic measurements provided by National Statistics like inflation rates in the UK. (England, 2022; ‘Home’, 2022)
 
