@@ -1,0 +1,3344 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>967cc61ce8ee4cbbae4e342d109f515a</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Interdisciplinary Group Project - Team 3&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Interdisciplinary Group Project - Team 3
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># libraries</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas <span class="im">import</span> DataFrame</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reading the files.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># changing the data types with the valid form.</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># montly per capita</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 2019-index = 100</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>monthly_gdp_uk <span class="op">=</span> pd.read_excel(<span class="st">&quot;UK_Monthly_GDP.xls&quot;</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>monthly_gdp_uk[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span>  pd.to_datetime(monthly_gdp_uk[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># annual inflation ratio</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>annual_inflation_rate_yearly <span class="op">=</span> pd.read_csv(<span class="st">&quot;annual_inflation_ratio.csv&quot;</span>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>annual_inflation_rate_monthly <span class="op">=</span> pd.read_csv(<span class="st">&quot;annual_inflation_ratio2.csv&quot;</span>)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>annual_inflation_rate_yearly[<span class="st">&#39;year&#39;</span>] <span class="op">=</span>  pd.to_datetime(annual_inflation_rate_yearly[<span class="st">&#39;year&#39;</span>], <span class="bu">format</span><span class="op">=</span><span class="st">&#39;%Y-%m-</span><span class="sc">%d</span><span class="st">&#39;</span>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>annual_inflation_rate_monthly[<span class="st">&#39;year&#39;</span>] <span class="op">=</span>  pd.to_datetime(annual_inflation_rate_monthly[<span class="st">&#39;year&#39;</span>], <span class="bu">format</span><span class="op">=</span><span class="st">&#39;%Y-%m-</span><span class="sc">%d</span><span class="st">&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.plot(monthly_gdp_uk[<span class="st">&quot;Date&quot;</span>], monthly_gdp_uk[<span class="st">&quot;Monthly GDP&quot;</span>])</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot-1, the annual gross domestic product.</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/2e7c8993c3dcd71b64bb903b0fb8f279d6f157d9.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>condition <span class="op">=</span> monthly_gdp_uk[(monthly_gdp_uk[<span class="st">&quot;Date&quot;</span>] <span class="op">&lt;</span> <span class="st">&quot;2018-01-01&quot;</span>)]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">min</span>(condition[<span class="st">&quot;Monthly GDP&quot;</span>]))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>condition <span class="op">=</span> monthly_gdp_uk[(monthly_gdp_uk[<span class="st">&quot;Date&quot;</span>] <span class="op">&gt;</span> <span class="st">&quot;2018-01-01&quot;</span>)]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">min</span>(condition[<span class="st">&quot;Monthly GDP&quot;</span>]))</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>condition <span class="op">=</span> monthly_gdp_uk[(monthly_gdp_uk[<span class="st">&quot;Monthly GDP&quot;</span>] <span class="op">==</span>  <span class="fl">80.9</span>)]</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>condition</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># the minimum value before the pandemic was 80.9 on &quot;2009-05-01&quot;.</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># it is clear that the pandemic adversely affected the economy.</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>80.9
+75.0
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Monthly GDP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>28</th>
+      <td>2009-05-01</td>
+      <td>80.9</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>monthly_gdp_uk[monthly_gdp_uk[<span class="st">&quot;Monthly GDP&quot;</span>] <span class="op">==</span> <span class="bu">min</span>(monthly_gdp_uk[<span class="st">&quot;Monthly GDP&quot;</span>])][<span class="st">&quot;Date&quot;</span>]</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># the day that it had the minimum value.</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>159   2020-04-01
+Name: Date, dtype: datetime64[ns]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>monthly_gdp_uk[monthly_gdp_uk[<span class="st">&quot;Monthly GDP&quot;</span>] <span class="op">==</span> <span class="bu">min</span>(monthly_gdp_uk[<span class="st">&quot;Monthly GDP&quot;</span>])]</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># if it is neeed as dataframe.</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Monthly GDP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>159</th>
+      <td>2020-04-01</td>
+      <td>75.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">&quot;darkgrid&quot;</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span><span class="st">&quot;year&quot;</span>, y<span class="op">=</span><span class="st">&quot;rate&quot;</span>, data<span class="op">=</span>annual_inflation_rate_yearly)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">&quot;darkgrid&quot;</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span> (<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>sns.lineplot(x<span class="op">=</span><span class="st">&quot;year&quot;</span>, y<span class="op">=</span><span class="st">&quot;rate&quot;</span>, data<span class="op">=</span>annual_inflation_rate_monthly)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;year&#39;, ylabel=&#39;rate&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/d93e5bc698174e66099db9d72b1b739c04070c44.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/6581eaac9d703b340d690a8c918bbf2cbe86e679.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reading covid-19 England data.</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># renaming the columns.</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># changing the data type.</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># printing the data types.</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>covid_data <span class="op">=</span> pd.read_csv(<span class="st">&quot;England_Cases_by_Specimen.csv&quot;</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>covid_data <span class="op">=</span> covid_data[[<span class="st">&quot;areaName&quot;</span>,<span class="st">&quot;date&quot;</span>,<span class="st">&quot;newCasesBySpecimenDate&quot;</span>,<span class="st">&quot;cumCasesBySpecimenDate&quot;</span>]]</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>covid_data.rename(columns <span class="op">=</span> {<span class="st">&#39;areaName&#39;</span>:<span class="st">&#39;Country_Name&#39;</span>, <span class="st">&#39;date&#39;</span>:<span class="st">&#39;Date&#39;</span>, <span class="st">&#39;newCasesBySpecimenDate&#39;</span>:<span class="st">&#39;New_Cases&#39;</span>, <span class="st">&#39;cumCasesBySpecimenDate&#39;</span>:<span class="st">&#39;Cumulative_Cases&#39;</span>}, inplace <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>covid_data[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span>  pd.to_datetime(covid_data[<span class="st">&#39;Date&#39;</span>])</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(covid_data.dtypes)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>covid_data.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Country_Name                object
+Date                datetime64[ns]
+New_Cases                    int64
+Cumulative_Cases             int64
+dtype: object
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="9">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country_Name</th>
+      <th>Date</th>
+      <th>New_Cases</th>
+      <th>Cumulative_Cases</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>England</td>
+      <td>2022-06-30</td>
+      <td>13504</td>
+      <td>19144946</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>England</td>
+      <td>2022-06-29</td>
+      <td>20401</td>
+      <td>19131442</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>England</td>
+      <td>2022-06-28</td>
+      <td>21309</td>
+      <td>19111041</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>England</td>
+      <td>2022-06-27</td>
+      <td>21629</td>
+      <td>19089732</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>England</td>
+      <td>2022-06-26</td>
+      <td>17941</td>
+      <td>19068103</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;the first day:&quot;</span>, covid_data.iloc[<span class="dv">882</span>][<span class="dv">1</span>], <span class="st">&quot;</span><span class="ch">\n</span><span class="st">the last day:&quot;</span>, covid_data.iloc[<span class="dv">0</span>][<span class="dv">1</span>])</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># the last case a new case shown up is 30-June-2022</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># the first case a new case shown up is 30-January-2020</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>the first day: 2020-01-30 00:00:00 
+the last day: 2022-06-30 00:00:00
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the number of new cases by time.</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">5</span>))</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>plt.plot(covid_data[<span class="st">&quot;Date&quot;</span>], covid_data[<span class="st">&quot;New_Cases&quot;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x1ce1ecd85e0&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/a7dcc91b21ace854286fac5459e6466d0229b5dd.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Maximum new case number per a day is:&quot;</span>, <span class="bu">max</span>(covid_data[<span class="st">&quot;New_Cases&quot;</span>]))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Maximum new case number per a day is: 234860
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the following part of this projec was run by the data collected by WHO.</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;WHO-COVID-19-global-data.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># creating separated data frames.</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># joining the tables by using &quot;Date_reported&quot;.</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>df_uk <span class="op">=</span> df[df[<span class="st">&quot;Country_code&quot;</span>] <span class="op">==</span> <span class="st">&quot;GB&quot;</span>]</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>df_fr <span class="op">=</span> df[df[<span class="st">&quot;Country_code&quot;</span>] <span class="op">==</span> <span class="st">&quot;FR&quot;</span>]</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>df_join <span class="op">=</span> df_uk.join(df_fr.set_index(<span class="st">&quot;Date_reported&quot;</span>), lsuffix<span class="op">=</span><span class="st">&#39;UK&#39;</span>, rsuffix<span class="op">=</span><span class="st">&#39;FR&#39;</span>, on <span class="op">=</span><span class="st">&quot;Date_reported&quot;</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>df_join[[<span class="st">&quot;New_casesUK&quot;</span>,	<span class="st">&quot;Cumulative_casesUK&quot;</span>,<span class="st">&quot;New_deathsUK&quot;</span>,<span class="st">&quot;Cumulative_deathsUK&quot;</span>,<span class="st">&quot;New_casesFR&quot;</span>,<span class="st">&quot;Cumulative_casesFR&quot;</span>,<span class="st">&quot;New_deathsFR&quot;</span>,<span class="st">&quot;Cumulative_deathsFR&quot;</span>]]</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="co"># back-up data frames.</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>df_clean <span class="op">=</span> df_join.drop(columns<span class="op">=</span>[<span class="st">&quot;Date_reported&quot;</span>,<span class="st">&quot;Country_codeUK&quot;</span>,<span class="st">&quot;CountryUK&quot;</span> , <span class="st">&quot;WHO_regionUK&quot;</span>,<span class="st">&quot;Country_codeFR&quot;</span>,<span class="st">&quot;CountryFR&quot;</span>,<span class="st">&quot;WHO_regionFR&quot;</span>])</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>df_clean_with_date <span class="op">=</span> df_join.drop(columns<span class="op">=</span>[<span class="st">&quot;Country_codeUK&quot;</span>,<span class="st">&quot;CountryUK&quot;</span> , <span class="st">&quot;WHO_regionUK&quot;</span>,<span class="st">&quot;Country_codeFR&quot;</span>,<span class="st">&quot;CountryFR&quot;</span>,<span class="st">&quot;WHO_regionFR&quot;</span>])</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>df_clean_with_date[<span class="st">&quot;Date_reported&quot;</span>] <span class="op">=</span> pd.to_datetime(df_clean_with_date[<span class="st">&quot;Date_reported&quot;</span>])</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a><span class="co"># to see the first day that the number of case was 1.</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a><span class="co"># df_clean_with_date[df_clean_with_date[&quot;New_casesUK&quot;] == 1]</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The correlation table between New_casesUK and other columns:&quot;</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>df_clean_with_date.corr().iloc[<span class="dv">0</span>]</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The correlation table between New_casesUK and other columns:
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>New_casesUK            1.000000
+Cumulative_casesUK     0.432656
+New_deathsUK           0.134456
+Cumulative_deathsUK    0.450331
+New_casesFR            0.666076
+Cumulative_casesFR     0.289363
+New_deathsFR           0.076461
+Cumulative_deathsFR    0.461253
+Name: New_casesUK, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Financial Times Stock Exchange 100 data.</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Cotation Assistée en Continu 40 data. </span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co"># changing the data types.</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>ftse_daily <span class="op">=</span> pd.read_csv(<span class="st">&quot;HistoricalPricesFTSE100.csv&quot;</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>ftse_daily[<span class="st">&quot;Date&quot;</span>] <span class="op">=</span> pd.to_datetime(ftse_daily[<span class="st">&quot;Date&quot;</span>])</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>cac_daily <span class="op">=</span> pd.read_csv(<span class="st">&quot;HistoricalPricesCAC40.csv&quot;</span>)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>cac_daily[<span class="st">&quot;Date&quot;</span>] <span class="op">=</span> pd.to_datetime(cac_daily[<span class="st">&quot;Date&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># creating a table including stock comparison.</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="co"># creating a new column calculating the daily changes.</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>Stock_value_join <span class="op">=</span> ftse_daily.join(cac_daily.set_index(<span class="st">&quot;Date&quot;</span>), lsuffix<span class="op">=</span><span class="st">&#39;UK&#39;</span>, rsuffix<span class="op">=</span><span class="st">&#39;FR&#39;</span>, on <span class="op">=</span><span class="st">&quot;Date&quot;</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>Stock_value_join[<span class="st">&quot;Daily_Change_UK&quot;</span>] <span class="op">=</span> ( np.array(Stock_value_join[<span class="st">&quot; CloseUK&quot;</span>]) <span class="op">-</span> np.array(Stock_value_join[<span class="st">&quot; OpenUK&quot;</span>]) ) <span class="op">/</span> np.array(Stock_value_join[<span class="st">&quot; CloseUK&quot;</span>])</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>Stock_value_join[<span class="st">&quot;Daily_Change_FR&quot;</span>] <span class="op">=</span> ( np.array(Stock_value_join[<span class="st">&quot; CloseFR&quot;</span>]) <span class="op">-</span> np.array(Stock_value_join[<span class="st">&quot; OpenFR&quot;</span>]) ) <span class="op">/</span> np.array(Stock_value_join[<span class="st">&quot; CloseFR&quot;</span>])</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>Stock_value_join</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>OpenUK</th>
+      <th>HighUK</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2022-07-22</td>
+      <td>7270.51</td>
+      <td>7315.34</td>
+      <td>7254.02</td>
+      <td>7276.37</td>
+      <td>6174.29</td>
+      <td>6247.35</td>
+      <td>6168.77</td>
+      <td>6216.82</td>
+      <td>0.000805</td>
+      <td>0.006841</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2022-07-21</td>
+      <td>7264.31</td>
+      <td>7274.73</td>
+      <td>7200.14</td>
+      <td>7270.51</td>
+      <td>6160.37</td>
+      <td>6233.98</td>
+      <td>6143.06</td>
+      <td>6201.11</td>
+      <td>0.000853</td>
+      <td>0.006570</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2022-07-20</td>
+      <td>7296.28</td>
+      <td>7347.60</td>
+      <td>7253.56</td>
+      <td>7264.31</td>
+      <td>6229.79</td>
+      <td>6245.47</td>
+      <td>6151.36</td>
+      <td>6184.66</td>
+      <td>-0.004401</td>
+      <td>-0.007297</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2022-07-19</td>
+      <td>7223.24</td>
+      <td>7308.99</td>
+      <td>7174.40</td>
+      <td>7296.28</td>
+      <td>6031.60</td>
+      <td>6213.88</td>
+      <td>6028.79</td>
+      <td>6201.22</td>
+      <td>0.010011</td>
+      <td>0.027353</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2022-07-18</td>
+      <td>7159.01</td>
+      <td>7268.88</td>
+      <td>7159.01</td>
+      <td>7223.24</td>
+      <td>6070.21</td>
+      <td>6136.02</td>
+      <td>6059.87</td>
+      <td>6091.91</td>
+      <td>0.008892</td>
+      <td>0.003562</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>906</th>
+      <td>2019-01-07</td>
+      <td>6837.42</td>
+      <td>6874.11</td>
+      <td>6778.01</td>
+      <td>6810.88</td>
+      <td>4757.01</td>
+      <td>4760.27</td>
+      <td>4690.22</td>
+      <td>4719.17</td>
+      <td>-0.003897</td>
+      <td>-0.008018</td>
+    </tr>
+    <tr>
+      <th>907</th>
+      <td>2019-01-04</td>
+      <td>6692.66</td>
+      <td>6850.37</td>
+      <td>6692.50</td>
+      <td>6837.42</td>
+      <td>4649.63</td>
+      <td>4750.51</td>
+      <td>4636.79</td>
+      <td>4737.12</td>
+      <td>0.021172</td>
+      <td>0.018469</td>
+    </tr>
+    <tr>
+      <th>908</th>
+      <td>2019-01-03</td>
+      <td>6734.23</td>
+      <td>6753.14</td>
+      <td>6685.09</td>
+      <td>6692.66</td>
+      <td>4641.80</td>
+      <td>4671.28</td>
+      <td>4607.68</td>
+      <td>4611.49</td>
+      <td>-0.006211</td>
+      <td>-0.006573</td>
+    </tr>
+    <tr>
+      <th>909</th>
+      <td>2019-01-02</td>
+      <td>6728.13</td>
+      <td>6753.29</td>
+      <td>6599.48</td>
+      <td>6734.23</td>
+      <td>4642.18</td>
+      <td>4699.98</td>
+      <td>4606.20</td>
+      <td>4689.39</td>
+      <td>0.000906</td>
+      <td>0.010067</td>
+    </tr>
+    <tr>
+      <th>910</th>
+      <td>2019-01-01</td>
+      <td>6728.13</td>
+      <td>6752.54</td>
+      <td>6718.32</td>
+      <td>6728.13</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>911 rows × 11 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaning the distertion on the column names.</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>Stock_value_join.columns <span class="op">=</span> Stock_value_join.columns.<span class="bu">str</span>.replace(<span class="st">&#39; &#39;</span>,<span class="st">&#39;&#39;</span>)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>Stock_value_join.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>Index([&#39;Date&#39;, &#39;OpenUK&#39;, &#39;HighUK&#39;, &#39;LowUK&#39;, &#39;CloseUK&#39;, &#39;OpenFR&#39;, &#39;HighFR&#39;,
+       &#39;LowFR&#39;, &#39;CloseFR&#39;, &#39;Daily_Change_UK&#39;, &#39;Daily_Change_FR&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># joining the stock table with the cleaned covid data. </span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="co"># checking the correlations.</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>main_table <span class="op">=</span> df_clean_with_date.join(Stock_value_join.set_index(<span class="st">&quot;Date&quot;</span>), on <span class="op">=</span><span class="st">&quot;Date_reported&quot;</span>)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>main_table.corr()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>New_casesUK</th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>OpenUK</th>
+      <th>HighUK</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>New_casesUK</th>
+      <td>1.000000</td>
+      <td>0.432656</td>
+      <td>0.134456</td>
+      <td>0.450331</td>
+      <td>0.666076</td>
+      <td>0.289363</td>
+      <td>0.076461</td>
+      <td>0.461253</td>
+      <td>0.410314</td>
+      <td>0.414011</td>
+      <td>0.414351</td>
+      <td>0.418012</td>
+      <td>0.547664</td>
+      <td>0.552557</td>
+      <td>0.543678</td>
+      <td>0.548433</td>
+      <td>0.047680</td>
+      <td>0.028740</td>
+    </tr>
+    <tr>
+      <th>Cumulative_casesUK</th>
+      <td>0.432656</td>
+      <td>1.000000</td>
+      <td>-0.112914</td>
+      <td>0.850608</td>
+      <td>0.536452</td>
+      <td>0.979417</td>
+      <td>-0.123883</td>
+      <td>0.856190</td>
+      <td>0.672135</td>
+      <td>0.683236</td>
+      <td>0.664316</td>
+      <td>0.674472</td>
+      <td>0.619535</td>
+      <td>0.630336</td>
+      <td>0.608118</td>
+      <td>0.617889</td>
+      <td>0.013618</td>
+      <td>0.002799</td>
+    </tr>
+    <tr>
+      <th>New_deathsUK</th>
+      <td>0.134456</td>
+      <td>-0.112914</td>
+      <td>1.000000</td>
+      <td>-0.108978</td>
+      <td>0.037040</td>
+      <td>-0.123948</td>
+      <td>0.634132</td>
+      <td>-0.121757</td>
+      <td>-0.257407</td>
+      <td>-0.258465</td>
+      <td>-0.249315</td>
+      <td>-0.249674</td>
+      <td>-0.234129</td>
+      <td>-0.236015</td>
+      <td>-0.232107</td>
+      <td>-0.233128</td>
+      <td>0.058072</td>
+      <td>0.009446</td>
+    </tr>
+    <tr>
+      <th>Cumulative_deathsUK</th>
+      <td>0.450331</td>
+      <td>0.850608</td>
+      <td>-0.108978</td>
+      <td>1.000000</td>
+      <td>0.424231</td>
+      <td>0.789910</td>
+      <td>-0.088628</td>
+      <td>0.995764</td>
+      <td>0.679322</td>
+      <td>0.681781</td>
+      <td>0.685026</td>
+      <td>0.686665</td>
+      <td>0.782725</td>
+      <td>0.788520</td>
+      <td>0.779709</td>
+      <td>0.784046</td>
+      <td>0.048767</td>
+      <td>0.050615</td>
+    </tr>
+    <tr>
+      <th>New_casesFR</th>
+      <td>0.666076</td>
+      <td>0.536452</td>
+      <td>0.037040</td>
+      <td>0.424231</td>
+      <td>1.000000</td>
+      <td>0.466903</td>
+      <td>0.061595</td>
+      <td>0.421924</td>
+      <td>0.361939</td>
+      <td>0.368257</td>
+      <td>0.358036</td>
+      <td>0.364323</td>
+      <td>0.385906</td>
+      <td>0.390815</td>
+      <td>0.377532</td>
+      <td>0.383621</td>
+      <td>0.014559</td>
+      <td>-0.009543</td>
+    </tr>
+    <tr>
+      <th>Cumulative_casesFR</th>
+      <td>0.289363</td>
+      <td>0.979417</td>
+      <td>-0.123948</td>
+      <td>0.789910</td>
+      <td>0.466903</td>
+      <td>1.000000</td>
+      <td>-0.122240</td>
+      <td>0.797178</td>
+      <td>0.608218</td>
+      <td>0.620020</td>
+      <td>0.598817</td>
+      <td>0.609644</td>
+      <td>0.507378</td>
+      <td>0.518146</td>
+      <td>0.495994</td>
+      <td>0.505673</td>
+      <td>0.008073</td>
+      <td>-0.001024</td>
+    </tr>
+    <tr>
+      <th>New_deathsFR</th>
+      <td>0.076461</td>
+      <td>-0.123883</td>
+      <td>0.634132</td>
+      <td>-0.088628</td>
+      <td>0.061595</td>
+      <td>-0.122240</td>
+      <td>1.000000</td>
+      <td>-0.099970</td>
+      <td>-0.241567</td>
+      <td>-0.240438</td>
+      <td>-0.230633</td>
+      <td>-0.228930</td>
+      <td>-0.164628</td>
+      <td>-0.165103</td>
+      <td>-0.161174</td>
+      <td>-0.160714</td>
+      <td>0.088374</td>
+      <td>0.046565</td>
+    </tr>
+    <tr>
+      <th>Cumulative_deathsFR</th>
+      <td>0.461253</td>
+      <td>0.856190</td>
+      <td>-0.121757</td>
+      <td>0.995764</td>
+      <td>0.421924</td>
+      <td>0.797178</td>
+      <td>-0.099970</td>
+      <td>1.000000</td>
+      <td>0.693567</td>
+      <td>0.696519</td>
+      <td>0.698752</td>
+      <td>0.700830</td>
+      <td>0.797303</td>
+      <td>0.803278</td>
+      <td>0.793589</td>
+      <td>0.798289</td>
+      <td>0.048147</td>
+      <td>0.046283</td>
+    </tr>
+    <tr>
+      <th>OpenUK</th>
+      <td>0.410314</td>
+      <td>0.672135</td>
+      <td>-0.257407</td>
+      <td>0.679322</td>
+      <td>0.361939</td>
+      <td>0.608218</td>
+      <td>-0.241567</td>
+      <td>0.693567</td>
+      <td>1.000000</td>
+      <td>0.995953</td>
+      <td>0.993606</td>
+      <td>0.989882</td>
+      <td>0.909622</td>
+      <td>0.908669</td>
+      <td>0.905893</td>
+      <td>0.904890</td>
+      <td>-0.069795</td>
+      <td>-0.026629</td>
+    </tr>
+    <tr>
+      <th>HighUK</th>
+      <td>0.414011</td>
+      <td>0.683236</td>
+      <td>-0.258465</td>
+      <td>0.681781</td>
+      <td>0.368257</td>
+      <td>0.620020</td>
+      <td>-0.240438</td>
+      <td>0.696519</td>
+      <td>0.995953</td>
+      <td>1.000000</td>
+      <td>0.994341</td>
+      <td>0.995207</td>
+      <td>0.908084</td>
+      <td>0.909335</td>
+      <td>0.904834</td>
+      <td>0.905600</td>
+      <td>-0.004951</td>
+      <td>0.003924</td>
+    </tr>
+    <tr>
+      <th>LowUK</th>
+      <td>0.414351</td>
+      <td>0.664316</td>
+      <td>-0.249315</td>
+      <td>0.685026</td>
+      <td>0.358036</td>
+      <td>0.598817</td>
+      <td>-0.230633</td>
+      <td>0.698752</td>
+      <td>0.993606</td>
+      <td>0.994341</td>
+      <td>1.000000</td>
+      <td>0.997020</td>
+      <td>0.917023</td>
+      <td>0.916536</td>
+      <td>0.917050</td>
+      <td>0.915798</td>
+      <td>0.025017</td>
+      <td>0.024278</td>
+    </tr>
+    <tr>
+      <th>CloseUK</th>
+      <td>0.418012</td>
+      <td>0.674472</td>
+      <td>-0.249674</td>
+      <td>0.686665</td>
+      <td>0.364323</td>
+      <td>0.609644</td>
+      <td>-0.228930</td>
+      <td>0.700830</td>
+      <td>0.989882</td>
+      <td>0.995207</td>
+      <td>0.997020</td>
+      <td>1.000000</td>
+      <td>0.912743</td>
+      <td>0.914348</td>
+      <td>0.912920</td>
+      <td>0.914692</td>
+      <td>0.071410</td>
+      <td>0.067490</td>
+    </tr>
+    <tr>
+      <th>OpenFR</th>
+      <td>0.547664</td>
+      <td>0.619535</td>
+      <td>-0.234129</td>
+      <td>0.782725</td>
+      <td>0.385906</td>
+      <td>0.507378</td>
+      <td>-0.164628</td>
+      <td>0.797303</td>
+      <td>0.909622</td>
+      <td>0.908084</td>
+      <td>0.917023</td>
+      <td>0.912743</td>
+      <td>1.000000</td>
+      <td>0.998702</td>
+      <td>0.998414</td>
+      <td>0.997232</td>
+      <td>0.017206</td>
+      <td>0.004016</td>
+    </tr>
+    <tr>
+      <th>HighFR</th>
+      <td>0.552557</td>
+      <td>0.630336</td>
+      <td>-0.236015</td>
+      <td>0.788520</td>
+      <td>0.390815</td>
+      <td>0.518146</td>
+      <td>-0.165103</td>
+      <td>0.803278</td>
+      <td>0.908669</td>
+      <td>0.909335</td>
+      <td>0.916536</td>
+      <td>0.914348</td>
+      <td>0.998702</td>
+      <td>1.000000</td>
+      <td>0.997928</td>
+      <td>0.998475</td>
+      <td>0.034362</td>
+      <td>0.036904</td>
+    </tr>
+    <tr>
+      <th>LowFR</th>
+      <td>0.543678</td>
+      <td>0.608118</td>
+      <td>-0.232107</td>
+      <td>0.779709</td>
+      <td>0.377532</td>
+      <td>0.495994</td>
+      <td>-0.161174</td>
+      <td>0.793589</td>
+      <td>0.905893</td>
+      <td>0.904834</td>
+      <td>0.917050</td>
+      <td>0.912920</td>
+      <td>0.998414</td>
+      <td>0.997928</td>
+      <td>1.000000</td>
+      <td>0.998762</td>
+      <td>0.044022</td>
+      <td>0.045474</td>
+    </tr>
+    <tr>
+      <th>CloseFR</th>
+      <td>0.548433</td>
+      <td>0.617889</td>
+      <td>-0.233128</td>
+      <td>0.784046</td>
+      <td>0.383621</td>
+      <td>0.505673</td>
+      <td>-0.160714</td>
+      <td>0.798289</td>
+      <td>0.904890</td>
+      <td>0.905600</td>
+      <td>0.915798</td>
+      <td>0.914692</td>
+      <td>0.997232</td>
+      <td>0.998475</td>
+      <td>0.998762</td>
+      <td>1.000000</td>
+      <td>0.063003</td>
+      <td>0.077209</td>
+    </tr>
+    <tr>
+      <th>Daily_Change_UK</th>
+      <td>0.047680</td>
+      <td>0.013618</td>
+      <td>0.058072</td>
+      <td>0.048767</td>
+      <td>0.014559</td>
+      <td>0.008073</td>
+      <td>0.088374</td>
+      <td>0.048147</td>
+      <td>-0.069795</td>
+      <td>-0.004951</td>
+      <td>0.025017</td>
+      <td>0.071410</td>
+      <td>0.017206</td>
+      <td>0.034362</td>
+      <td>0.044022</td>
+      <td>0.063003</td>
+      <td>1.000000</td>
+      <td>0.658432</td>
+    </tr>
+    <tr>
+      <th>Daily_Change_FR</th>
+      <td>0.028740</td>
+      <td>0.002799</td>
+      <td>0.009446</td>
+      <td>0.050615</td>
+      <td>-0.009543</td>
+      <td>-0.001024</td>
+      <td>0.046565</td>
+      <td>0.046283</td>
+      <td>-0.026629</td>
+      <td>0.003924</td>
+      <td>0.024278</td>
+      <td>0.067490</td>
+      <td>0.004016</td>
+      <td>0.036904</td>
+      <td>0.045474</td>
+      <td>0.077209</td>
+      <td>0.658432</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># checking the spesific new_cases column with other desired ones in for loop.</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> e <span class="kw">in</span> [<span class="st">&quot;OpenUK&quot;</span>,<span class="st">&quot;HighUK&quot;</span>,<span class="st">&quot;LowUK&quot;</span>,<span class="st">&quot;CloseUK&quot;</span>,<span class="st">&quot;Daily_Change_UK&quot;</span>]:</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;the corr between new_cases in the UK and </span><span class="sc">{}</span><span class="st"> is: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(e,main_table[e].corr(main_table.New_casesUK )))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>the corr between new_cases in the UK and OpenUK is: 0.4103140745026593
+the corr between new_cases in the UK and HighUK is: 0.41401068549061826
+the corr between new_cases in the UK and LowUK is: 0.4143513915252272
+the corr between new_cases in the UK and CloseUK is: 0.41801228714889693
+the corr between new_cases in the UK and Daily_Change_UK is: 0.04768044148921112
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># normalization to avaiod seeing a variable dominates the others because of its large values.</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> preprocessing</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> df_clean.values <span class="co">#returns a numpy array</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>min_max_scaler <span class="op">=</span> preprocessing.MinMaxScaler()</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>x_scaled <span class="op">=</span> min_max_scaler.fit_transform(x)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>df_normalized <span class="op">=</span> pd.DataFrame(x_scaled)</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>df_normalized</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.015725</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.015725</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.015725</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.015725</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.015725</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>927</th>
+      <td>0.052560</td>
+      <td>0.998236</td>
+      <td>0.076867</td>
+      <td>0.999064</td>
+      <td>0.147170</td>
+      <td>0.990048</td>
+      <td>0.055528</td>
+      <td>0.996252</td>
+    </tr>
+    <tr>
+      <th>928</th>
+      <td>0.059964</td>
+      <td>0.998948</td>
+      <td>0.081259</td>
+      <td>0.999672</td>
+      <td>0.035426</td>
+      <td>0.990596</td>
+      <td>0.101229</td>
+      <td>0.997429</td>
+    </tr>
+    <tr>
+      <th>929</th>
+      <td>0.054929</td>
+      <td>0.999600</td>
+      <td>0.043924</td>
+      <td>1.000000</td>
+      <td>0.267537</td>
+      <td>0.994731</td>
+      <td>0.086486</td>
+      <td>0.998404</td>
+    </tr>
+    <tr>
+      <th>930</th>
+      <td>0.033684</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.179272</td>
+      <td>0.997503</td>
+      <td>0.068796</td>
+      <td>0.999134</td>
+    </tr>
+    <tr>
+      <th>931</th>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.161556</td>
+      <td>1.000000</td>
+      <td>0.078624</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>932 rows × 8 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> normalize(df):</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> df.copy()</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> feature_name <span class="kw">in</span> df.columns:</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>        max_value <span class="op">=</span> df[feature_name].<span class="bu">max</span>()</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>        min_value <span class="op">=</span> df[feature_name].<span class="bu">min</span>()</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>        result[feature_name] <span class="op">=</span> (df[feature_name] <span class="op">-</span> min_value) <span class="op">/</span> (max_value <span class="op">-</span> min_value)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="co"># normalization by manuel. </span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(normalize(df_clean).corr())</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df_clean.corr())</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># the size of the data might not be enough to see the benefits of the normalization.</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                     New_casesUK  Cumulative_casesUK  New_deathsUK  \
+New_casesUK             1.000000            0.432656      0.134456   
+Cumulative_casesUK      0.432656            1.000000     -0.112914   
+New_deathsUK            0.134456           -0.112914      1.000000   
+Cumulative_deathsUK     0.450331            0.850608     -0.108978   
+New_casesFR             0.666076            0.536452      0.037040   
+Cumulative_casesFR      0.289363            0.979417     -0.123948   
+New_deathsFR            0.076461           -0.123883      0.634132   
+Cumulative_deathsFR     0.461253            0.856190     -0.121757   
+
+                     Cumulative_deathsUK  New_casesFR  Cumulative_casesFR  \
+New_casesUK                     0.450331     0.666076            0.289363   
+Cumulative_casesUK              0.850608     0.536452            0.979417   
+New_deathsUK                   -0.108978     0.037040           -0.123948   
+Cumulative_deathsUK             1.000000     0.424231            0.789910   
+New_casesFR                     0.424231     1.000000            0.466903   
+Cumulative_casesFR              0.789910     0.466903            1.000000   
+New_deathsFR                   -0.088628     0.061595           -0.122240   
+Cumulative_deathsFR             0.995764     0.421924            0.797178   
+
+                     New_deathsFR  Cumulative_deathsFR  
+New_casesUK              0.076461             0.461253  
+Cumulative_casesUK      -0.123883             0.856190  
+New_deathsUK             0.634132            -0.121757  
+Cumulative_deathsUK     -0.088628             0.995764  
+New_casesFR              0.061595             0.421924  
+Cumulative_casesFR      -0.122240             0.797178  
+New_deathsFR             1.000000            -0.099970  
+Cumulative_deathsFR     -0.099970             1.000000  
+                     New_casesUK  Cumulative_casesUK  New_deathsUK  \
+New_casesUK             1.000000            0.432656      0.134456   
+Cumulative_casesUK      0.432656            1.000000     -0.112914   
+New_deathsUK            0.134456           -0.112914      1.000000   
+Cumulative_deathsUK     0.450331            0.850608     -0.108978   
+New_casesFR             0.666076            0.536452      0.037040   
+Cumulative_casesFR      0.289363            0.979417     -0.123948   
+New_deathsFR            0.076461           -0.123883      0.634132   
+Cumulative_deathsFR     0.461253            0.856190     -0.121757   
+
+                     Cumulative_deathsUK  New_casesFR  Cumulative_casesFR  \
+New_casesUK                     0.450331     0.666076            0.289363   
+Cumulative_casesUK              0.850608     0.536452            0.979417   
+New_deathsUK                   -0.108978     0.037040           -0.123948   
+Cumulative_deathsUK             1.000000     0.424231            0.789910   
+New_casesFR                     0.424231     1.000000            0.466903   
+Cumulative_casesFR              0.789910     0.466903            1.000000   
+New_deathsFR                   -0.088628     0.061595           -0.122240   
+Cumulative_deathsFR             0.995764     0.421924            0.797178   
+
+                     New_deathsFR  Cumulative_deathsFR  
+New_casesUK              0.076461             0.461253  
+Cumulative_casesUK      -0.123883             0.856190  
+New_deathsUK             0.634132            -0.121757  
+Cumulative_deathsUK     -0.088628             0.995764  
+New_casesFR              0.061595             0.421924  
+Cumulative_casesFR      -0.122240             0.797178  
+New_deathsFR             1.000000            -0.099970  
+Cumulative_deathsFR     -0.099970             1.000000  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># checking the number of null values.</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;the first, unfilled version:&quot;</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(main_table.isna().<span class="bu">sum</span>())</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="co"># filling them with the former values.</span></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a><span class="co"># controlling the number of null values in the filled table.</span></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>main_table_filled <span class="op">=</span> main_table.fillna(method<span class="op">=</span><span class="st">&#39;ffill&#39;</span>)</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;the number of null values of the filled table:&quot;</span>, main_table_filled.isna().<span class="bu">sum</span>().<span class="bu">sum</span>())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>the first, unfilled version:
+Date_reported            0
+New_casesUK              0
+Cumulative_casesUK       0
+New_deathsUK             0
+Cumulative_deathsUK      0
+New_casesFR              0
+Cumulative_casesFR       0
+New_deathsFR             0
+Cumulative_deathsFR      0
+OpenUK                 281
+HighUK                 281
+LowUK                  281
+CloseUK                281
+OpenFR                 286
+HighFR                 286
+LowFR                  286
+CloseFR                286
+Daily_Change_UK        281
+Daily_Change_FR        286
+dtype: int64
+the number of null values of the filled table: 0
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the relation closing prices and new cases in different countries.</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>plt.plot(main_table[<span class="st">&quot;Date_reported&quot;</span>], main_table[<span class="st">&quot;New_casesFR&quot;</span>]<span class="op">/</span><span class="dv">10</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>plt.plot(main_table[<span class="st">&quot;Date_reported&quot;</span>], main_table[<span class="st">&quot;New_casesUK&quot;</span>]<span class="op">/</span><span class="dv">10</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>plt.plot(main_table[<span class="st">&quot;Date_reported&quot;</span>], main_table[<span class="st">&quot;CloseFR&quot;</span>])</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>plt.plot(main_table[<span class="st">&quot;Date_reported&quot;</span>], main_table[<span class="st">&quot;CloseUK&quot;</span>])</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="co"># in this case, new_cases columns are divided by 10 to fit the size.</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x1ce1f7e3700&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/715f8095a9279d35b00d0ed7e9665700beae963c.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>main_table[<span class="st">&quot;CloseUK&quot;</span>].corr(main_table[<span class="st">&quot;CloseFR&quot;</span>])</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co"># we can say they have similar reaction during the pandemic.</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<pre><code>0.914692267905556</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the trends of the features by time (except date_reported column itself).</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> e <span class="kw">in</span> main_table.columns:</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> e <span class="op">==</span> <span class="st">&quot;Date_reported&quot;</span>:</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>         <span class="cf">continue</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>    plt.rcParams.update({<span class="st">&#39;text.color&#39;</span>: <span class="st">&quot;red&quot;</span>})</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>    plt.plot(main_table[<span class="st">&quot;Date_reported&quot;</span>], main_table[e])</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>    plt.title(e)</span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/4aaf4b9406c9a5542dd7995c78b6aed73f94e3e0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/49a9e3d75b8cc349e2e08f4863bf9ba4bfd835f5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/7f2e4409386a0c8aa8bc298849aa9b42b570bc3b.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/b9c3cdceed4aace1dcec242da92fffcf7646a2de.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/f35e48685db7a0e30969237b894a4050776c903c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/30863e93252a2b7d41c54dfe310cf75c8a0dc771.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/58994371b37366ceff08ec1ac94a8ad6525ffac6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/465bc5ea6b7bfed7ff67e79c7f1a910586e868c1.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/34cfc4c1888a7f654491a8b6f2286b47f87d82e5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/28cd5c8093be083a91c98d5ab0ef72e89fa94a26.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/7a40ae9f3b27247bb039274d85c0a216949aa708.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/45da2a688ae0cf4d9866bdbfed6ec79705ca713d.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/af2c0d9a11877bf277cf6f5d92eb67345b0565b5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/03f643ed593acff9a35483ee41e38bb5c700b490.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/cbdfb5e7e1f3d99d6cb6f7f97c6675b0b45bce18.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/4ddd60ac890f3838296d4c9de0e9f0ad7475b6ff.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/c066d6540203079b0c8bbd0814530ab7f031e983.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_51643663c0d04a1ba70782760e2031a1/2e5869ce6fec02e49b7de4af40ca872c56991aa4.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the stock market is closed at the weekends which means there would be no value for these days. At this point, </span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="co"># copying the data frame to have a bac up.</span></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>main_table_comparison <span class="op">=</span> main_table.copy()</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a><span class="co"># removing the null values at the weekends. </span></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>main_table_comparison.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a><span class="co"># the weight dictionary, if it is needed to read it from this. </span></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>manuel_weights <span class="op">=</span> {<span class="st">&quot;New_cases&quot;</span>:<span class="dv">1</span>, <span class="st">&quot;Cumulative_cases&quot;</span>:<span class="fl">0.5</span>, <span class="st">&quot;New_deaths&quot;</span>:<span class="dv">2</span>, <span class="st">&quot;Cumulativedeaths&quot;</span>:<span class="dv">1</span>, <span class="st">&quot;Daily_Change_UK&quot;</span>:<span class="op">-</span><span class="dv">1</span>}</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>manuel_weights</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>{&#39;New_cases&#39;: 1,
+ &#39;Cumulative_cases&#39;: 0.5,
+ &#39;New_deaths&#39;: 2,
+ &#39;Cumulativedeaths&#39;: 1,
+ &#39;Daily_Change_UK&#39;: -1}</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co">#main_table_comparison.drop(columns=&quot;Date_reported&quot;, inplace=True)</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>main_table_comparison <span class="op">=</span>  normalize(main_table_comparison)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>main_table_comparison.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date_reported</th>
+      <th>New_casesUK</th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>OpenUK</th>
+      <th>HighUK</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>196652</th>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.973790</td>
+      <td>0.974783</td>
+      <td>0.967667</td>
+      <td>0.980542</td>
+      <td>0.623541</td>
+      <td>0.614314</td>
+      <td>0.641736</td>
+      <td>0.632142</td>
+      <td>0.606675</td>
+      <td>0.636320</td>
+    </tr>
+    <tr>
+      <th>196655</th>
+      <td>0.003222</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.980542</td>
+      <td>0.973185</td>
+      <td>0.959304</td>
+      <td>0.962987</td>
+      <td>0.621605</td>
+      <td>0.606779</td>
+      <td>0.631050</td>
+      <td>0.623700</td>
+      <td>0.564794</td>
+      <td>0.607797</td>
+    </tr>
+    <tr>
+      <th>196656</th>
+      <td>0.004296</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962987</td>
+      <td>0.966085</td>
+      <td>0.971731</td>
+      <td>0.962431</td>
+      <td>0.630786</td>
+      <td>0.620522</td>
+      <td>0.643205</td>
+      <td>0.623358</td>
+      <td>0.594134</td>
+      <td>0.567668</td>
+    </tr>
+    <tr>
+      <th>196657</th>
+      <td>0.005371</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962431</td>
+      <td>0.956076</td>
+      <td>0.958166</td>
+      <td>0.962834</td>
+      <td>0.617475</td>
+      <td>0.610528</td>
+      <td>0.635809</td>
+      <td>0.628508</td>
+      <td>0.595789</td>
+      <td>0.646028</td>
+    </tr>
+    <tr>
+      <th>196658</th>
+      <td>0.006445</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962834</td>
+      <td>0.975321</td>
+      <td>0.976398</td>
+      <td>0.971485</td>
+      <td>0.640403</td>
+      <td>0.622225</td>
+      <td>0.652481</td>
+      <td>0.631697</td>
+      <td>0.609979</td>
+      <td>0.563795</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb48"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># it could (should) have been shorter by a for loop changing all the columns of the dataframe to  numpy arrays.					</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>array_New_casesUK                     <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;New_casesUK&quot;</span>])</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>array_Cumulative_casesUK              <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;Cumulative_casesUK&quot;</span>])</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>array_New_deathsUK                    <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;New_deathsUK&quot;</span>])</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>array_Cumulative_deathsUK             <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;Cumulative_deathsUK&quot;</span>])</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>array_New_casesFR                     <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;New_casesFR&quot;</span>])</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>array_Cumulative_casesFR              <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;Cumulative_casesFR&quot;</span>])</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>array_New_deathsFR                    <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;New_deathsFR&quot;</span>])</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>array_Cumulative_deathsFR             <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;Cumulative_deathsFR&quot;</span>])</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>array_OpenUK                          <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;OpenUK&quot;</span>])</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>array_HighUK                          <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;HighUK&quot;</span>])</span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>array_LowUK                           <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;LowUK&quot;</span>])</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>array_CloseUK                         <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;CloseUK&quot;</span>])</span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a>array_OpenFR                          <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;OpenFR&quot;</span>])</span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>array_newHighFR_FR                    <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;HighFR&quot;</span>])</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>array_LowFR                           <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;LowFR&quot;</span>])</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>array_CloseFR                         <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;CloseFR&quot;</span>])</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>array_Daily_Change_UK                 <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;Daily_Change_UK&quot;</span>])</span>
+<span id="cb48-19"><a href="#cb48-19" aria-hidden="true" tabindex="-1"></a>array_Daily_Change_FR                 <span class="op">=</span>    np.array(main_table_comparison[<span class="st">&quot;Daily_Change_FR&quot;</span>])</span>
+<span id="cb48-20"><a href="#cb48-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-21"><a href="#cb48-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-22"><a href="#cb48-22" aria-hidden="true" tabindex="-1"></a><span class="co"># the default comparison value is 0.</span></span>
+<span id="cb48-23"><a href="#cb48-23" aria-hidden="true" tabindex="-1"></a>new_comparison <span class="op">=</span> np.zeros(array_New_casesUK.shape[<span class="dv">0</span>], dtype<span class="op">=</span><span class="bu">int</span>)</span>
+<span id="cb48-24"><a href="#cb48-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-25"><a href="#cb48-25" aria-hidden="true" tabindex="-1"></a>counter <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb48-26"><a href="#cb48-26" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> nc_UK, cc_UK, nd_UK, cd_UK, nc_FR, cc_FR, nd_FR, cd_FR, close_UK, close_FR, change_UK, change_FR, idx <span class="kw">in</span> <span class="bu">zip</span>( </span>
+<span id="cb48-27"><a href="#cb48-27" aria-hidden="true" tabindex="-1"></a>array_New_casesUK        </span>
+<span id="cb48-28"><a href="#cb48-28" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_casesUK </span>
+<span id="cb48-29"><a href="#cb48-29" aria-hidden="true" tabindex="-1"></a>,array_New_deathsUK       </span>
+<span id="cb48-30"><a href="#cb48-30" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_deathsUK</span>
+<span id="cb48-31"><a href="#cb48-31" aria-hidden="true" tabindex="-1"></a>,array_New_casesFR        </span>
+<span id="cb48-32"><a href="#cb48-32" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_casesFR </span>
+<span id="cb48-33"><a href="#cb48-33" aria-hidden="true" tabindex="-1"></a>,array_New_deathsFR       </span>
+<span id="cb48-34"><a href="#cb48-34" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_deathsFR             </span>
+<span id="cb48-35"><a href="#cb48-35" aria-hidden="true" tabindex="-1"></a>,array_CloseUK                        </span>
+<span id="cb48-36"><a href="#cb48-36" aria-hidden="true" tabindex="-1"></a>,array_CloseFR            </span>
+<span id="cb48-37"><a href="#cb48-37" aria-hidden="true" tabindex="-1"></a>,array_Daily_Change_UK</span>
+<span id="cb48-38"><a href="#cb48-38" aria-hidden="true" tabindex="-1"></a>,array_Daily_Change_FR       </span>
+<span id="cb48-39"><a href="#cb48-39" aria-hidden="true" tabindex="-1"></a>,main_table_comparison.reset_index().index): </span>
+<span id="cb48-40"><a href="#cb48-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> nc_UK<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> cc_UK<span class="op">*</span><span class="fl">0.5</span> <span class="op">+</span> nd_UK<span class="op">*</span><span class="dv">2</span> <span class="op">+</span> cd_UK<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> change_UK<span class="op">*</span>(<span class="op">-</span><span class="dv">1</span>) <span class="op">&lt;</span> nc_FR<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> cc_FR<span class="op">*</span><span class="fl">0.5</span> <span class="op">+</span> nd_FR<span class="op">*</span><span class="dv">2</span> <span class="op">+</span> cd_FR<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> change_FR<span class="op">*</span>(<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb48-41"><a href="#cb48-41" aria-hidden="true" tabindex="-1"></a>        counter <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb48-42"><a href="#cb48-42" aria-hidden="true" tabindex="-1"></a>        new_comparison[idx] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb48-43"><a href="#cb48-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(counter) </span>
+<span id="cb48-44"><a href="#cb48-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-45"><a href="#cb48-45" aria-hidden="true" tabindex="-1"></a><span class="co"># data frame columns are converted to numpy arrays.</span></span>
+<span id="cb48-46"><a href="#cb48-46" aria-hidden="true" tabindex="-1"></a><span class="co"># it calculates the performance changes it if it is 1. </span></span>
+<span id="cb48-47"><a href="#cb48-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-48"><a href="#cb48-48" aria-hidden="true" tabindex="-1"></a>main_table_comparison[<span class="st">&#39;comparison&#39;</span>] <span class="op">=</span> new_comparison.tolist()</span>
+<span id="cb48-49"><a href="#cb48-49" aria-hidden="true" tabindex="-1"></a><span class="co"># the comparison list is added to the main table to see the results.</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>224
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>main_table_comparison.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date_reported</th>
+      <th>New_casesUK</th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>OpenUK</th>
+      <th>HighUK</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+      <th>comparison</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>196652</th>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.973790</td>
+      <td>0.974783</td>
+      <td>0.967667</td>
+      <td>0.980542</td>
+      <td>0.623541</td>
+      <td>0.614314</td>
+      <td>0.641736</td>
+      <td>0.632142</td>
+      <td>0.606675</td>
+      <td>0.636320</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196655</th>
+      <td>0.003222</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.980542</td>
+      <td>0.973185</td>
+      <td>0.959304</td>
+      <td>0.962987</td>
+      <td>0.621605</td>
+      <td>0.606779</td>
+      <td>0.631050</td>
+      <td>0.623700</td>
+      <td>0.564794</td>
+      <td>0.607797</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196656</th>
+      <td>0.004296</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962987</td>
+      <td>0.966085</td>
+      <td>0.971731</td>
+      <td>0.962431</td>
+      <td>0.630786</td>
+      <td>0.620522</td>
+      <td>0.643205</td>
+      <td>0.623358</td>
+      <td>0.594134</td>
+      <td>0.567668</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196657</th>
+      <td>0.005371</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962431</td>
+      <td>0.956076</td>
+      <td>0.958166</td>
+      <td>0.962834</td>
+      <td>0.617475</td>
+      <td>0.610528</td>
+      <td>0.635809</td>
+      <td>0.628508</td>
+      <td>0.595789</td>
+      <td>0.646028</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196658</th>
+      <td>0.006445</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962834</td>
+      <td>0.975321</td>
+      <td>0.976398</td>
+      <td>0.971485</td>
+      <td>0.640403</td>
+      <td>0.622225</td>
+      <td>0.652481</td>
+      <td>0.631697</td>
+      <td>0.609979</td>
+      <td>0.563795</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196659</th>
+      <td>0.007519</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.971485</td>
+      <td>0.976995</td>
+      <td>0.980097</td>
+      <td>0.967654</td>
+      <td>0.637532</td>
+      <td>0.618246</td>
+      <td>0.650889</td>
+      <td>0.630195</td>
+      <td>0.588492</td>
+      <td>0.569262</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196662</th>
+      <td>0.010741</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.967654</td>
+      <td>0.978514</td>
+      <td>0.979163</td>
+      <td>0.978752</td>
+      <td>0.632992</td>
+      <td>0.618494</td>
+      <td>0.648184</td>
+      <td>0.629927</td>
+      <td>0.614141</td>
+      <td>0.587123</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196663</th>
+      <td>0.011815</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.978752</td>
+      <td>0.984462</td>
+      <td>0.981462</td>
+      <td>0.980524</td>
+      <td>0.632000</td>
+      <td>0.614877</td>
+      <td>0.637786</td>
+      <td>0.631239</td>
+      <td>0.598133</td>
+      <td>0.596990</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196664</th>
+      <td>0.012889</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.980524</td>
+      <td>0.981316</td>
+      <td>0.988989</td>
+      <td>0.988152</td>
+      <td>0.633511</td>
+      <td>0.616860</td>
+      <td>0.646269</td>
+      <td>0.628952</td>
+      <td>0.608144</td>
+      <td>0.580696</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196665</th>
+      <td>0.013963</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.988152</td>
+      <td>0.985614</td>
+      <td>0.983833</td>
+      <td>0.975846</td>
+      <td>0.632622</td>
+      <td>0.618574</td>
+      <td>0.648917</td>
+      <td>0.630725</td>
+      <td>0.573949</td>
+      <td>0.592149</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>main_table_comparison[main_table_comparison.comparison <span class="op">==</span> <span class="dv">1</span>].shape[<span class="dv">0</span>] <span class="op">/</span> main_table_comparison.shape[<span class="dv">0</span>]</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="co"># to see the percentages to understand who has more 1 values.</span></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="co"># the UK has a little bit more successful which makes it a little bit more successful in this case.</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>0.34674922600619196</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># removing non-numerical datetime column. </span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="co">## main_table_comparison.drop(columns=&quot;Date_reported&quot;, inplace=True)</span></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>main_table_comparison.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date_reported</th>
+      <th>New_casesUK</th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>OpenUK</th>
+      <th>HighUK</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+      <th>comparison</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>196652</th>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.973790</td>
+      <td>0.974783</td>
+      <td>0.967667</td>
+      <td>0.980542</td>
+      <td>0.623541</td>
+      <td>0.614314</td>
+      <td>0.641736</td>
+      <td>0.632142</td>
+      <td>0.606675</td>
+      <td>0.636320</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196655</th>
+      <td>0.003222</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.980542</td>
+      <td>0.973185</td>
+      <td>0.959304</td>
+      <td>0.962987</td>
+      <td>0.621605</td>
+      <td>0.606779</td>
+      <td>0.631050</td>
+      <td>0.623700</td>
+      <td>0.564794</td>
+      <td>0.607797</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196656</th>
+      <td>0.004296</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962987</td>
+      <td>0.966085</td>
+      <td>0.971731</td>
+      <td>0.962431</td>
+      <td>0.630786</td>
+      <td>0.620522</td>
+      <td>0.643205</td>
+      <td>0.623358</td>
+      <td>0.594134</td>
+      <td>0.567668</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196657</th>
+      <td>0.005371</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962431</td>
+      <td>0.956076</td>
+      <td>0.958166</td>
+      <td>0.962834</td>
+      <td>0.617475</td>
+      <td>0.610528</td>
+      <td>0.635809</td>
+      <td>0.628508</td>
+      <td>0.595789</td>
+      <td>0.646028</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196658</th>
+      <td>0.006445</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.004155</td>
+      <td>0.0</td>
+      <td>0.962834</td>
+      <td>0.975321</td>
+      <td>0.976398</td>
+      <td>0.971485</td>
+      <td>0.640403</td>
+      <td>0.622225</td>
+      <td>0.652481</td>
+      <td>0.631697</td>
+      <td>0.609979</td>
+      <td>0.563795</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb54"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># train - test split</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="co"># dropping the column to be predicted.</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(main_table_comparison.drop(<span class="st">&#39;comparison&#39;</span>,axis<span class="op">=</span><span class="dv">1</span>), main_table_comparison[<span class="st">&#39;comparison&#39;</span>], test_size<span class="op">=</span><span class="fl">0.30</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fitting the train set.</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="co"># predicting the y values.</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>logmodel <span class="op">=</span> LogisticRegression()</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>logmodel.fit(X_train,y_train)</span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> logmodel.predict(X_test)</span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a>predictions</span></code></pre></div>
+<div class="output execute_result" data-execution_count="36">
+<pre><code>array([1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0,
+       0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0,
+       0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0], dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co"># checking the accuracy.</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test,predictions))</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>confusion_matrix(y_test, predictions)</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>tn, fp, fn, tp  <span class="op">=</span> confusion_matrix(y_test, predictions).ravel()</span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>tn, fp, fn, tp </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+           0       0.69      1.00      0.82       115
+           1       1.00      0.35      0.52        79
+
+    accuracy                           0.74       194
+   macro avg       0.85      0.68      0.67       194
+weighted avg       0.82      0.74      0.70       194
+
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="37">
+<pre><code>(115, 0, 51, 28)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># manuel way to calculate metrics to understand what they really are easily. </span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> perf_measure(y_test, predictions):</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>    TP <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>    FP <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a>    TN <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>    FN <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(predictions)):</span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y_test[i]<span class="op">==</span>predictions[i]<span class="op">==</span><span class="dv">0</span>:</span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a>            TN <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb60-12"><a href="#cb60-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> predictions[i]<span class="op">==</span><span class="dv">1</span> <span class="kw">and</span> y_test[i]<span class="op">!=</span>predictions[i]:</span>
+<span id="cb60-13"><a href="#cb60-13" aria-hidden="true" tabindex="-1"></a>            FP <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb60-14"><a href="#cb60-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> predictions[i]<span class="op">==</span><span class="dv">0</span> <span class="kw">and</span> y_test[i]<span class="op">!=</span>predictions[i]:</span>
+<span id="cb60-15"><a href="#cb60-15" aria-hidden="true" tabindex="-1"></a>            FN <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb60-16"><a href="#cb60-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> y_test[i]<span class="op">==</span>predictions[i]<span class="op">==</span><span class="dv">1</span>:</span>
+<span id="cb60-17"><a href="#cb60-17" aria-hidden="true" tabindex="-1"></a>            TP <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb60-18"><a href="#cb60-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-19"><a href="#cb60-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(TN, FP, FN, TP)</span>
+<span id="cb60-20"><a href="#cb60-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb60-21"><a href="#cb60-21" aria-hidden="true" tabindex="-1"></a>perf_measure(np.array(y_test), predictions)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code>(115, 0, 51, 28)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb62"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># printing the tn, fp, fn, tp metrics.</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(</span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>tn, <span class="st">&quot;   of them were negative and predicted correctly</span><span class="ch">\n</span><span class="st"> &quot;</span>, </span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>fp, <span class="st">&quot;   of them were positive and predicted as negative wrongly</span><span class="ch">\n</span><span class="st">&quot;</span>,</span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>fn, <span class="st">&quot;   of them were negative and predicted as positive wrongly</span><span class="ch">\n</span><span class="st">&quot;</span>,</span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a>tp, <span class="st">&quot;   of them were positive and predicted correctly&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>115    of them were negative and predicted correctly
+  0    of them were positive and predicted as negative wrongly
+ 51    of them were negative and predicted as positive wrongly
+ 28    of them were positive and predicted correctly
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb64"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>array_New_casesUK                     <span class="op">=</span>    np.array(X_test[<span class="st">&quot;New_casesUK&quot;</span>])</span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>array_Cumulative_casesUK              <span class="op">=</span>    np.array(X_test[<span class="st">&quot;Cumulative_casesUK&quot;</span>])</span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a>array_New_deathsUK                    <span class="op">=</span>    np.array(X_test[<span class="st">&quot;New_deathsUK&quot;</span>])</span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a>array_Cumulative_deathsUK             <span class="op">=</span>    np.array(X_test[<span class="st">&quot;Cumulative_deathsUK&quot;</span>])</span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a>array_New_casesFR                     <span class="op">=</span>    np.array(X_test[<span class="st">&quot;New_casesFR&quot;</span>])</span>
+<span id="cb64-7"><a href="#cb64-7" aria-hidden="true" tabindex="-1"></a>array_Cumulative_casesFR              <span class="op">=</span>    np.array(X_test[<span class="st">&quot;Cumulative_casesFR&quot;</span>])</span>
+<span id="cb64-8"><a href="#cb64-8" aria-hidden="true" tabindex="-1"></a>array_New_deathsFR                    <span class="op">=</span>    np.array(X_test[<span class="st">&quot;New_deathsFR&quot;</span>])</span>
+<span id="cb64-9"><a href="#cb64-9" aria-hidden="true" tabindex="-1"></a>array_Cumulative_deathsFR             <span class="op">=</span>    np.array(X_test[<span class="st">&quot;Cumulative_deathsFR&quot;</span>])</span>
+<span id="cb64-10"><a href="#cb64-10" aria-hidden="true" tabindex="-1"></a>array_OpenUK                          <span class="op">=</span>    np.array(X_test[<span class="st">&quot;OpenUK&quot;</span>])</span>
+<span id="cb64-11"><a href="#cb64-11" aria-hidden="true" tabindex="-1"></a>array_HighUK                          <span class="op">=</span>    np.array(X_test[<span class="st">&quot;HighUK&quot;</span>])</span>
+<span id="cb64-12"><a href="#cb64-12" aria-hidden="true" tabindex="-1"></a>array_LowUK                           <span class="op">=</span>    np.array(X_test[<span class="st">&quot;LowUK&quot;</span>])</span>
+<span id="cb64-13"><a href="#cb64-13" aria-hidden="true" tabindex="-1"></a>array_CloseUK                         <span class="op">=</span>    np.array(X_test[<span class="st">&quot;CloseUK&quot;</span>])</span>
+<span id="cb64-14"><a href="#cb64-14" aria-hidden="true" tabindex="-1"></a>array_OpenFR                          <span class="op">=</span>    np.array(X_test[<span class="st">&quot;OpenFR&quot;</span>])</span>
+<span id="cb64-15"><a href="#cb64-15" aria-hidden="true" tabindex="-1"></a>array_newHighFR_FR                    <span class="op">=</span>    np.array(X_test[<span class="st">&quot;HighFR&quot;</span>])</span>
+<span id="cb64-16"><a href="#cb64-16" aria-hidden="true" tabindex="-1"></a>array_LowFR                           <span class="op">=</span>    np.array(X_test[<span class="st">&quot;LowFR&quot;</span>])</span>
+<span id="cb64-17"><a href="#cb64-17" aria-hidden="true" tabindex="-1"></a>array_CloseFR                         <span class="op">=</span>    np.array(X_test[<span class="st">&quot;CloseFR&quot;</span>])</span>
+<span id="cb64-18"><a href="#cb64-18" aria-hidden="true" tabindex="-1"></a>array_Daily_Change_UK                 <span class="op">=</span>    np.array(X_test[<span class="st">&quot;Daily_Change_UK&quot;</span>])</span>
+<span id="cb64-19"><a href="#cb64-19" aria-hidden="true" tabindex="-1"></a>array_Daily_Change_FR                 <span class="op">=</span>    np.array(X_test[<span class="st">&quot;Daily_Change_FR&quot;</span>])</span>
+<span id="cb64-20"><a href="#cb64-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-21"><a href="#cb64-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-22"><a href="#cb64-22" aria-hidden="true" tabindex="-1"></a>new_comparison <span class="op">=</span> np.zeros(array_New_casesUK.shape[<span class="dv">0</span>], dtype<span class="op">=</span><span class="bu">int</span>)</span>
+<span id="cb64-23"><a href="#cb64-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-24"><a href="#cb64-24" aria-hidden="true" tabindex="-1"></a>counter <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb64-25"><a href="#cb64-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> nc_UK, cc_UK, nd_UK, cd_UK, nc_FR, cc_FR, nd_FR, cd_FR, close_UK, close_FR, change_UK, change_FR, idx <span class="kw">in</span> <span class="bu">zip</span>( </span>
+<span id="cb64-26"><a href="#cb64-26" aria-hidden="true" tabindex="-1"></a>array_New_casesUK        </span>
+<span id="cb64-27"><a href="#cb64-27" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_casesUK </span>
+<span id="cb64-28"><a href="#cb64-28" aria-hidden="true" tabindex="-1"></a>,array_New_deathsUK       </span>
+<span id="cb64-29"><a href="#cb64-29" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_deathsUK</span>
+<span id="cb64-30"><a href="#cb64-30" aria-hidden="true" tabindex="-1"></a>,array_New_casesFR        </span>
+<span id="cb64-31"><a href="#cb64-31" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_casesFR </span>
+<span id="cb64-32"><a href="#cb64-32" aria-hidden="true" tabindex="-1"></a>,array_New_deathsFR       </span>
+<span id="cb64-33"><a href="#cb64-33" aria-hidden="true" tabindex="-1"></a>,array_Cumulative_deathsFR             </span>
+<span id="cb64-34"><a href="#cb64-34" aria-hidden="true" tabindex="-1"></a>,array_CloseUK                        </span>
+<span id="cb64-35"><a href="#cb64-35" aria-hidden="true" tabindex="-1"></a>,array_CloseFR            </span>
+<span id="cb64-36"><a href="#cb64-36" aria-hidden="true" tabindex="-1"></a>,array_Daily_Change_UK</span>
+<span id="cb64-37"><a href="#cb64-37" aria-hidden="true" tabindex="-1"></a>,array_Daily_Change_FR       </span>
+<span id="cb64-38"><a href="#cb64-38" aria-hidden="true" tabindex="-1"></a>,main_table_comparison.reset_index().index): </span>
+<span id="cb64-39"><a href="#cb64-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> nc_UK<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> cc_UK<span class="op">*</span><span class="fl">0.5</span> <span class="op">+</span> nd_UK<span class="op">*</span><span class="dv">2</span> <span class="op">+</span> cd_UK<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> change_UK<span class="op">*</span>(<span class="op">-</span><span class="dv">1</span>) <span class="op">&lt;</span> nc_FR<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> cc_FR<span class="op">*</span><span class="fl">0.5</span> <span class="op">+</span> nd_FR<span class="op">*</span><span class="dv">2</span> <span class="op">+</span> cd_FR<span class="op">*</span><span class="dv">1</span> <span class="op">+</span> change_FR<span class="op">*</span>(<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb64-40"><a href="#cb64-40" aria-hidden="true" tabindex="-1"></a>        counter <span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb64-41"><a href="#cb64-41" aria-hidden="true" tabindex="-1"></a>        new_comparison[idx] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb64-42"><a href="#cb64-42" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(counter) </span>
+<span id="cb64-43"><a href="#cb64-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-44"><a href="#cb64-44" aria-hidden="true" tabindex="-1"></a><span class="co"># adding the &quot;comparison&quot; column to the X_test data frame.</span></span>
+<span id="cb64-45"><a href="#cb64-45" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&#39;comparison&#39;</span>] <span class="op">=</span> new_comparison.tolist()</span>
+<span id="cb64-46"><a href="#cb64-46" aria-hidden="true" tabindex="-1"></a>X_test</span>
+<span id="cb64-47"><a href="#cb64-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-48"><a href="#cb64-48" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>79
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="40">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date_reported</th>
+      <th>New_casesUK</th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>OpenUK</th>
+      <th>HighUK</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+      <th>comparison</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>197567</th>
+      <td>0.982814</td>
+      <td>0.122166</td>
+      <td>0.985686</td>
+      <td>0.082723</td>
+      <td>0.990707</td>
+      <td>0.412643</td>
+      <td>0.948839</td>
+      <td>0.056094</td>
+      <td>0.990482</td>
+      <td>0.757863</td>
+      <td>0.804296</td>
+      <td>0.775882</td>
+      <td>0.788564</td>
+      <td>0.584622</td>
+      <td>0.580753</td>
+      <td>0.601401</td>
+      <td>0.595754</td>
+      <td>0.651567</td>
+      <td>0.642087</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197184</th>
+      <td>0.571429</td>
+      <td>0.040094</td>
+      <td>0.202605</td>
+      <td>0.009517</td>
+      <td>0.704001</td>
+      <td>0.005544</td>
+      <td>0.174292</td>
+      <td>0.042244</td>
+      <td>0.742195</td>
+      <td>0.805597</td>
+      <td>0.786720</td>
+      <td>0.769822</td>
+      <td>0.754878</td>
+      <td>0.809766</td>
+      <td>0.799326</td>
+      <td>0.795351</td>
+      <td>0.777108</td>
+      <td>0.500598</td>
+      <td>0.495571</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197142</th>
+      <td>0.526316</td>
+      <td>0.009320</td>
+      <td>0.194485</td>
+      <td>0.009517</td>
+      <td>0.701845</td>
+      <td>0.007767</td>
+      <td>0.163943</td>
+      <td>0.155817</td>
+      <td>0.711003</td>
+      <td>0.776776</td>
+      <td>0.782268</td>
+      <td>0.794424</td>
+      <td>0.796749</td>
+      <td>0.732809</td>
+      <td>0.713815</td>
+      <td>0.736203</td>
+      <td>0.726397</td>
+      <td>0.631719</td>
+      <td>0.588982</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197075</th>
+      <td>0.454350</td>
+      <td>0.017954</td>
+      <td>0.183298</td>
+      <td>0.168375</td>
+      <td>0.680573</td>
+      <td>0.040778</td>
+      <td>0.111667</td>
+      <td>0.083102</td>
+      <td>0.581498</td>
+      <td>0.555660</td>
+      <td>0.570710</td>
+      <td>0.578161</td>
+      <td>0.594866</td>
+      <td>0.555544</td>
+      <td>0.545326</td>
+      <td>0.579589</td>
+      <td>0.562732</td>
+      <td>0.672896</td>
+      <td>0.620292</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196756</th>
+      <td>0.111708</td>
+      <td>0.015727</td>
+      <td>0.004364</td>
+      <td>0.628843</td>
+      <td>0.094447</td>
+      <td>0.005236</td>
+      <td>0.003247</td>
+      <td>1.000000</td>
+      <td>0.115988</td>
+      <td>0.225227</td>
+      <td>0.189980</td>
+      <td>0.247732</td>
+      <td>0.236709</td>
+      <td>0.163026</td>
+      <td>0.146694</td>
+      <td>0.186567</td>
+      <td>0.164384</td>
+      <td>0.621766</td>
+      <td>0.505748</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>197091</th>
+      <td>0.471536</td>
+      <td>0.024295</td>
+      <td>0.187278</td>
+      <td>0.069546</td>
+      <td>0.693127</td>
+      <td>0.060682</td>
+      <td>0.122636</td>
+      <td>0.275623</td>
+      <td>0.613097</td>
+      <td>0.675100</td>
+      <td>0.647640</td>
+      <td>0.676813</td>
+      <td>0.659828</td>
+      <td>0.635114</td>
+      <td>0.619549</td>
+      <td>0.653323</td>
+      <td>0.635085</td>
+      <td>0.565567</td>
+      <td>0.600660</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197103</th>
+      <td>0.484425</td>
+      <td>0.013535</td>
+      <td>0.190049</td>
+      <td>0.028551</td>
+      <td>0.697122</td>
+      <td>0.087010</td>
+      <td>0.134469</td>
+      <td>0.094875</td>
+      <td>0.635955</td>
+      <td>0.651591</td>
+      <td>0.628925</td>
+      <td>0.659154</td>
+      <td>0.649942</td>
+      <td>0.619824</td>
+      <td>0.610122</td>
+      <td>0.639228</td>
+      <td>0.624231</td>
+      <td>0.591893</td>
+      <td>0.617599</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>196852</th>
+      <td>0.214823</td>
+      <td>0.001625</td>
+      <td>0.012778</td>
+      <td>0.010249</td>
+      <td>0.225604</td>
+      <td>0.002106</td>
+      <td>0.005239</td>
+      <td>0.009695</td>
+      <td>0.203308</td>
+      <td>0.472878</td>
+      <td>0.452295</td>
+      <td>0.494416</td>
+      <td>0.475941</td>
+      <td>0.371660</td>
+      <td>0.363697</td>
+      <td>0.398037</td>
+      <td>0.372616</td>
+      <td>0.601480</td>
+      <td>0.556605</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197523</th>
+      <td>0.935553</td>
+      <td>0.018201</td>
+      <td>0.958705</td>
+      <td>0.051977</td>
+      <td>0.976145</td>
+      <td>0.033892</td>
+      <td>0.879705</td>
+      <td>0.009695</td>
+      <td>0.977933</td>
+      <td>0.893840</td>
+      <td>0.929751</td>
+      <td>0.908918</td>
+      <td>0.939896</td>
+      <td>0.721898</td>
+      <td>0.704811</td>
+      <td>0.714905</td>
+      <td>0.719006</td>
+      <td>0.675237</td>
+      <td>0.601828</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196988</th>
+      <td>0.360902</td>
+      <td>0.060758</td>
+      <td>0.073914</td>
+      <td>0.283309</td>
+      <td>0.335895</td>
+      <td>0.013081</td>
+      <td>0.068809</td>
+      <td>0.228532</td>
+      <td>0.363802</td>
+      <td>0.558211</td>
+      <td>0.549360</td>
+      <td>0.580467</td>
+      <td>0.580579</td>
+      <td>0.499107</td>
+      <td>0.491321</td>
+      <td>0.527523</td>
+      <td>0.512024</td>
+      <td>0.639740</td>
+      <td>0.638177</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>194 rows × 20 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb66"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># adding the &quot;prediction&quot; column next to the &quot;comparison&quot; column to understand what has done.</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&quot;predictions&quot;</span>] <span class="op">=</span> predictions</span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>X_test</span></code></pre></div>
+<div class="output execute_result" data-execution_count="41">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date_reported</th>
+      <th>New_casesUK</th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>OpenUK</th>
+      <th>...</th>
+      <th>LowUK</th>
+      <th>CloseUK</th>
+      <th>OpenFR</th>
+      <th>HighFR</th>
+      <th>LowFR</th>
+      <th>CloseFR</th>
+      <th>Daily_Change_UK</th>
+      <th>Daily_Change_FR</th>
+      <th>comparison</th>
+      <th>predictions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>197567</th>
+      <td>0.982814</td>
+      <td>0.122166</td>
+      <td>0.985686</td>
+      <td>0.082723</td>
+      <td>0.990707</td>
+      <td>0.412643</td>
+      <td>0.948839</td>
+      <td>0.056094</td>
+      <td>0.990482</td>
+      <td>0.757863</td>
+      <td>...</td>
+      <td>0.775882</td>
+      <td>0.788564</td>
+      <td>0.584622</td>
+      <td>0.580753</td>
+      <td>0.601401</td>
+      <td>0.595754</td>
+      <td>0.651567</td>
+      <td>0.642087</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197184</th>
+      <td>0.571429</td>
+      <td>0.040094</td>
+      <td>0.202605</td>
+      <td>0.009517</td>
+      <td>0.704001</td>
+      <td>0.005544</td>
+      <td>0.174292</td>
+      <td>0.042244</td>
+      <td>0.742195</td>
+      <td>0.805597</td>
+      <td>...</td>
+      <td>0.769822</td>
+      <td>0.754878</td>
+      <td>0.809766</td>
+      <td>0.799326</td>
+      <td>0.795351</td>
+      <td>0.777108</td>
+      <td>0.500598</td>
+      <td>0.495571</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197142</th>
+      <td>0.526316</td>
+      <td>0.009320</td>
+      <td>0.194485</td>
+      <td>0.009517</td>
+      <td>0.701845</td>
+      <td>0.007767</td>
+      <td>0.163943</td>
+      <td>0.155817</td>
+      <td>0.711003</td>
+      <td>0.776776</td>
+      <td>...</td>
+      <td>0.794424</td>
+      <td>0.796749</td>
+      <td>0.732809</td>
+      <td>0.713815</td>
+      <td>0.736203</td>
+      <td>0.726397</td>
+      <td>0.631719</td>
+      <td>0.588982</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197075</th>
+      <td>0.454350</td>
+      <td>0.017954</td>
+      <td>0.183298</td>
+      <td>0.168375</td>
+      <td>0.680573</td>
+      <td>0.040778</td>
+      <td>0.111667</td>
+      <td>0.083102</td>
+      <td>0.581498</td>
+      <td>0.555660</td>
+      <td>...</td>
+      <td>0.578161</td>
+      <td>0.594866</td>
+      <td>0.555544</td>
+      <td>0.545326</td>
+      <td>0.579589</td>
+      <td>0.562732</td>
+      <td>0.672896</td>
+      <td>0.620292</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196756</th>
+      <td>0.111708</td>
+      <td>0.015727</td>
+      <td>0.004364</td>
+      <td>0.628843</td>
+      <td>0.094447</td>
+      <td>0.005236</td>
+      <td>0.003247</td>
+      <td>1.000000</td>
+      <td>0.115988</td>
+      <td>0.225227</td>
+      <td>...</td>
+      <td>0.247732</td>
+      <td>0.236709</td>
+      <td>0.163026</td>
+      <td>0.146694</td>
+      <td>0.186567</td>
+      <td>0.164384</td>
+      <td>0.621766</td>
+      <td>0.505748</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>197091</th>
+      <td>0.471536</td>
+      <td>0.024295</td>
+      <td>0.187278</td>
+      <td>0.069546</td>
+      <td>0.693127</td>
+      <td>0.060682</td>
+      <td>0.122636</td>
+      <td>0.275623</td>
+      <td>0.613097</td>
+      <td>0.675100</td>
+      <td>...</td>
+      <td>0.676813</td>
+      <td>0.659828</td>
+      <td>0.635114</td>
+      <td>0.619549</td>
+      <td>0.653323</td>
+      <td>0.635085</td>
+      <td>0.565567</td>
+      <td>0.600660</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197103</th>
+      <td>0.484425</td>
+      <td>0.013535</td>
+      <td>0.190049</td>
+      <td>0.028551</td>
+      <td>0.697122</td>
+      <td>0.087010</td>
+      <td>0.134469</td>
+      <td>0.094875</td>
+      <td>0.635955</td>
+      <td>0.651591</td>
+      <td>...</td>
+      <td>0.659154</td>
+      <td>0.649942</td>
+      <td>0.619824</td>
+      <td>0.610122</td>
+      <td>0.639228</td>
+      <td>0.624231</td>
+      <td>0.591893</td>
+      <td>0.617599</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196852</th>
+      <td>0.214823</td>
+      <td>0.001625</td>
+      <td>0.012778</td>
+      <td>0.010249</td>
+      <td>0.225604</td>
+      <td>0.002106</td>
+      <td>0.005239</td>
+      <td>0.009695</td>
+      <td>0.203308</td>
+      <td>0.472878</td>
+      <td>...</td>
+      <td>0.494416</td>
+      <td>0.475941</td>
+      <td>0.371660</td>
+      <td>0.363697</td>
+      <td>0.398037</td>
+      <td>0.372616</td>
+      <td>0.601480</td>
+      <td>0.556605</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197523</th>
+      <td>0.935553</td>
+      <td>0.018201</td>
+      <td>0.958705</td>
+      <td>0.051977</td>
+      <td>0.976145</td>
+      <td>0.033892</td>
+      <td>0.879705</td>
+      <td>0.009695</td>
+      <td>0.977933</td>
+      <td>0.893840</td>
+      <td>...</td>
+      <td>0.908918</td>
+      <td>0.939896</td>
+      <td>0.721898</td>
+      <td>0.704811</td>
+      <td>0.714905</td>
+      <td>0.719006</td>
+      <td>0.675237</td>
+      <td>0.601828</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196988</th>
+      <td>0.360902</td>
+      <td>0.060758</td>
+      <td>0.073914</td>
+      <td>0.283309</td>
+      <td>0.335895</td>
+      <td>0.013081</td>
+      <td>0.068809</td>
+      <td>0.228532</td>
+      <td>0.363802</td>
+      <td>0.558211</td>
+      <td>...</td>
+      <td>0.580467</td>
+      <td>0.580579</td>
+      <td>0.499107</td>
+      <td>0.491321</td>
+      <td>0.527523</td>
+      <td>0.512024</td>
+      <td>0.639740</td>
+      <td>0.638177</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>194 rows × 21 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb67"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>X_test[[<span class="st">&quot;comparison&quot;</span>,<span class="st">&quot;predictions&quot;</span>]]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="42">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>comparison</th>
+      <th>predictions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>197567</th>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197184</th>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197142</th>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197075</th>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196756</th>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>197091</th>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>197103</th>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196852</th>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197523</th>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>196988</th>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>194 rows × 2 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb68"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="co"># a prediction of the number of New_caseUK column.</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb69"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(df_clean.drop(<span class="st">&#39;New_casesUK&#39;</span>,axis<span class="op">=</span><span class="dv">1</span>), df_clean[<span class="st">&#39;New_casesUK&#39;</span>], test_size<span class="op">=</span><span class="fl">0.30</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb70"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>logmodel <span class="op">=</span> LogisticRegression()</span>
+<span id="cb70-3"><a href="#cb70-3" aria-hidden="true" tabindex="-1"></a>logmodel.fit(X_train,y_train)</span>
+<span id="cb70-4"><a href="#cb70-4" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> logmodel.predict(X_test)</span>
+<span id="cb70-5"><a href="#cb70-5" aria-hidden="true" tabindex="-1"></a>y_pred</span>
+<span id="cb70-6"><a href="#cb70-6" aria-hidden="true" tabindex="-1"></a><span class="co">#predictions_new_cases = logmodel.predict(X_test)</span></span>
+<span id="cb70-7"><a href="#cb70-7" aria-hidden="true" tabindex="-1"></a><span class="co">#predictions_new_cases</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<pre><code>array([ 32980,      0,  98094,   2812,  70362,   2812,  87563,  15141,
+         2812,   2812,  91572,  91572,  70362, 131514,  43558,   2812,
+       116276,  91572,  96412,  19572,  95788,  20747,  91572,      0,
+        98094,      0,  12684,  91572,  25089,   2812, 118759,      0,
+       116276,  91572,  70362,  70362,  87563, 131514,  87563,  39704,
+        15141,  20747,  20747,  87563,   2812,  82927,  25089,  82927,
+        91572,      0,  87563,      0, 116276,  96412,      0,  43734,
+        91572,  87563,  10781,  96412,  87563,  20747,  98094,  11746,
+       116276, 116276,   2812,  61460,  11746,   2812,  19572, 116276,
+        96412,  87563,   2812,  15141,  91572, 116276, 116276,  91572,
+        61460,  87563, 104957,  67435,   2812, 108667, 116276,  91572,
+        95788,  25089, 108667, 116276,  10781,  20747, 116276,  15141,
+        98094, 116276,  95788, 116276,  32339,  98094,  15141,  17122,
+        98094,  38777,  87563,  91572,  20747,  91572, 116276, 116276,
+        20747,  47494,      0,  38619,  91572,   2812, 100322,  98094,
+        20747,      0,  91572,   2812,  87563,  10781,   2812,  20747,
+        91572,  91572,  20860,      0, 116276,  12684,   2812,  25089,
+       116276, 108667,  33675,      0, 116276, 116276, 116276, 131514,
+        91572,  92916,  14717,      0, 116276,  41751, 116276, 118759,
+        91572,   2812,  70362,   2812,  91572, 116276,  70362,  91572,
+         2812,  26638,  20860,  61460,  20747, 104957,  45212, 116276,
+            0, 116276,  20747,   2812,   2812,  44926,      0,  25213,
+        20747,      0,  25089, 116276,  52304,  98094,      0,  26638,
+        93615,  61460,      0, 195007,      0,   2812,  92916,  96412,
+         2812,  70362,   2812,  91572,  20860, 100322,  82927,      0,
+        15141,      0,  76641,  95788, 131514,  10781,  98094,  52527,
+            0,  91572,      0, 195007,  91572,      0,  20747,   2812,
+       116276,  98094,  15141,   2812, 103216,  91572,  25089,  61460,
+       103216, 116276, 116276,  17122,  95788,      0,  91572,  87563,
+        98094, 195007,  61460,  61460,   5398, 103216,  98094,  15141,
+        25089,      0,  98094,   2812,   2812,      0,      0,   2812,
+       116276,  61460,  10781,   2812, 116276,  11663,  70362,  20747,
+        96412,   9027, 116276,   2812,  44742,   2812,  10781,   2812,
+        20747,  91572, 100322,  98094,   2812, 100322,   2812,  95788,
+       116276,      0, 116276,  91572,  98094,      0,  98094,   2812],
+      dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb72"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>accuracy_score(y_test, y_pred)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<pre><code>0.02857142857142857</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb74"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&quot;y_test&quot;</span>] <span class="op">=</span> y_test</span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a><span class="co">#X_test[&quot;predictions_new_cases&quot;] = predictions_new_cases</span></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a>X_test[<span class="st">&quot;y_prediction&quot;</span>] <span class="op">=</span> y_pred</span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a>X_test</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Cumulative_casesUK</th>
+      <th>New_deathsUK</th>
+      <th>Cumulative_deathsUK</th>
+      <th>New_casesFR</th>
+      <th>Cumulative_casesFR</th>
+      <th>New_deathsFR</th>
+      <th>Cumulative_deathsFR</th>
+      <th>y_test</th>
+      <th>y_prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>197481</th>
+      <td>21640754</td>
+      <td>262</td>
+      <td>171288</td>
+      <td>107654</td>
+      <td>26175546</td>
+      <td>45</td>
+      <td>140080</td>
+      <td>27877</td>
+      <td>32980</td>
+    </tr>
+    <tr>
+      <th>196722</th>
+      <td>1410</td>
+      <td>8</td>
+      <td>25</td>
+      <td>586</td>
+      <td>2856</td>
+      <td>13</td>
+      <td>61</td>
+      <td>428</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197283</th>
+      <td>7793473</td>
+      <td>139</td>
+      <td>137040</td>
+      <td>4527</td>
+      <td>6770902</td>
+      <td>20</td>
+      <td>114185</td>
+      <td>35851</td>
+      <td>98094</td>
+    </tr>
+    <tr>
+      <th>197158</th>
+      <td>4551313</td>
+      <td>10</td>
+      <td>128387</td>
+      <td>11821</td>
+      <td>5497073</td>
+      <td>75</td>
+      <td>107703</td>
+      <td>2365</td>
+      <td>2812</td>
+    </tr>
+    <tr>
+      <th>197355</th>
+      <td>10723778</td>
+      <td>147</td>
+      <td>146799</td>
+      <td>42222</td>
+      <td>7682100</td>
+      <td>29</td>
+      <td>117047</td>
+      <td>38782</td>
+      <td>70362</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>197239</th>
+      <td>6304341</td>
+      <td>81</td>
+      <td>131497</td>
+      <td>30757</td>
+      <td>6216600</td>
+      <td>57</td>
+      <td>111254</td>
+      <td>31517</td>
+      <td>91572</td>
+    </tr>
+    <tr>
+      <th>197080</th>
+      <td>4286001</td>
+      <td>154</td>
+      <td>125282</td>
+      <td>2364</td>
+      <td>3693556</td>
+      <td>431</td>
+      <td>87776</td>
+      <td>5937</td>
+      <td>98094</td>
+    </tr>
+    <tr>
+      <th>196954</th>
+      <td>1033132</td>
+      <td>314</td>
+      <td>47039</td>
+      <td>6351</td>
+      <td>1512058</td>
+      <td>544</td>
+      <td>36263</td>
+      <td>23649</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>197063</th>
+      <td>4141076</td>
+      <td>519</td>
+      <td>120432</td>
+      <td>20133</td>
+      <td>3405052</td>
+      <td>582</td>
+      <td>82383</td>
+      <td>14735</td>
+      <td>98094</td>
+    </tr>
+    <tr>
+      <th>196938</th>
+      <td>693710</td>
+      <td>111</td>
+      <td>43590</td>
+      <td>32716</td>
+      <td>885557</td>
+      <td>101</td>
+      <td>32780</td>
+      <td>19135</td>
+      <td>2812</td>
+    </tr>
+  </tbody>
+</table>
+<p>280 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb75"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># end of the jupyter file.</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a><span class="co"># thank you.</span></span></code></pre></div>
+</div>
+</body>
+</html>
